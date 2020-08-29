@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Gora | Official Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/Picture.png"/>
+    <!--using-font-awesome----->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+     <!--main-->
+     <section id="main">
+         <!--navigation-------->
+         <nav>
+             <!--logo---------->
+             <a href="#" class="logo">Aman Gora</a>
+             <!--bar-icon----->
+             <div class="toggle"></div>
+             <!---menu--------->
+             <ul class="menu">
+                 <li><a href="#main" class="active">Home</a></li>
+                 <li><a href="#about">About</a></li> 
+                 <li><a href="#portfolio">Portfolio</a></li>
+                 <li><a href="#contact-btn">Contact</a></li>
+             </ul>
+             <!--language--------->
+             <a href="#" class="lang">En</a>
+         </nav>
+
+         <!--name------------->
+         <div class="name">
+             <!--hello------>
+             <p>Hello...</p>
+             <!--name---->
+             <h1>This is <font color="#17dlac">Aman </font>Gora</h1>
+             <!--deatils----->
+             <p class="details">A Public Figure</p>
+         </div>
+
+         <!--social------>
+         <div class="social">
+             <a href="https://www.facebook.com/Aman-Gora-103057004862686/"><i class="fab fa-facebook"></i></a>
+             <a href="https://www.twitter.com/@AmanGora5/"><i class="fab fa-twitter"></i></a>
+             <a href="https://www.instagram.com/amangora_/"><i class="fab fa-instagram"></i></a>
+             <a href="https://www.snapchat.com/add/amangora1"><i class="fab fa-snapchat"></i></a>
+         </div>
+
+         <!--arrow---->
+         <div class="arrow"></div>
+     </section>    
+
+     <!--about section---->
+     <section id="about">
+         <div class="about-text">
+             <h1>About Us</h1>
+             <h2>A Public Figure</h2>
+             <p>Hi, I'm Aman Gora Belongs to sikar Present in Rajasthan. 
+                also a Rajasthan based Public Figure. I completed my 12th exam sucessfully
+                And in Internshala I worked there for 3months as a short course for B.Tech . 
+                I Played volleyball at Dist. level and also have a intreseted in Kabadi. As per 
+                interest i decided to persue in marketing carrer. I also have interest in interior
+                designing because my Father is an property dealer due to which i want to become an interior designer.
+            </p>
+            <!--btn---->
+            <button>More Details</button>
+         </div>
+         <!--about-model-img---->
+         <div class="about-model">
+             <img src="./images/font1.jpg" alt="model"/>
+         </div>
+         </section>
+         <!--Portfolio-section----->
+         <section id="portfolio">
+             <!--heading------>
+             <h1 class="p-heading">Portfolio</h1>
+             <!--portfolio-box-container------>
+             <div class="p-b-container">
+                 <!--box-1------>
+                 <div class="p-box">
+                     <!--text-->
+                     <div class="text-overlay">
+                         <h1>Music</h1>
+                     </div>
+                     <!--img----->
+                     <img src="./images/music.jpg" alt="portfolio">
+                 </div>
+
+                    <!--box-2------>
+                    <div class="p-box">
+                        <!--text-->
+                        <div class="text-overlay">
+                            <h1>Idea</h1>
+                        </div>
+                        <!--img----->
+                        <img src="./images/idea.jpg" alt="portfolio">
+                    </div>
+
+                       <!--box-3------>
+                 <div class="p-box">
+                    <!--text-->
+                    <div class="text-overlay">
+                        <h1>Photography</h1>
+                    </div>
+                    <!--img----->
+                    <img src="./images/photopgraphy.jpg" alt="portfolio">
+                </div>
+
+                   <!--box-4------>
+                   <div class="p-box">
+                    <!--text-->
+                    <div class="text-overlay">
+                        <h1>Book</h1>
+                    </div>
+                    <!--img----->
+                    <img src="./images/book1.jpg" alt="portfolio">
+                </div>
+
+                   <!--box-5------>
+                   <div class="p-box">
+                    <!--text-->
+                    <div class="text-overlay">
+                        <h1>Creative</h1>
+                    </div>
+                    <!--img----->
+                    <img src="./images/creative.jpg" alt="portfolio">
+                </div>
+
+                   <!--box-6------>
+                   <div class="p-box">
+                    <!--text-->
+                    <div class="text-overlay">
+                        <h1>Time</h1>
+                    </div>
+                    <!--img----->
+                    <img src="./images/time.jpg" alt="portfolio">
+                </div>
+             </div>
+         </section>
+
+         <section id="contact-btn">
+             <!--heading----->
+             <h1>CONTACT</h1>
+             <p>GET IN TOUCH</p>
+             <a href="#">Contact</a>
+         </section>
+
+         <!--jquery------>
+         <script type="text/javascript" src="./js/JQuery.js"></script>
+         <!--For change bar icon to "x"---->
+         <script type="text/javascript">
+          $(document).ready(function(){
+             $('.toggle').click(function(){
+                 $('.toggle').toggleClass('active')
+                 $('nav ul').toggleClass('active-menu')
+             })
+          })
+        </script>
+</body>
+</html>
